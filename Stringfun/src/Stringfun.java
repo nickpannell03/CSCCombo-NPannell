@@ -23,7 +23,7 @@ public class Stringfun {
 		System.out.println(year + " ");
 		
 		System.out.println("Do you know how to get input?");
-		answer = input. Nextline());
+		answer = input . Nextline());
 		System.out.println(answer);
 
 	}
