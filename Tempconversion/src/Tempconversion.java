@@ -5,14 +5,22 @@ public class Tempconversion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-Scanner input = new Scanner(System.in);
 		
-		String fahrenheit;
+		double temp;
 		
-		System.out.println("Enter a temp in fahrenheit here: ");
+		System.out.println("What is the temp?");
+		Scanner input = new Scanner(System.in);
 		
-		fahrenheit = input.next()
-		System.out.println("The temp goes here: " + fahrenheit);
+		temp = input.nextDouble();
+		temp = (temp-32) * (5.0/9);
+		System.out.println("The temp in celsuis is: " + temp);
+		
+		temp = (temp + 273.15);
+		System.out.println("The temp in kelvin is; " + temp);
+	
+		
+		
+
 	}
 
 }
