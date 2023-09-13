@@ -11,10 +11,10 @@ public class InputCheckSheet2 {
 		double biggerRealNum;
 		char letter;
 		try (Scanner input = new Scanner(System.in)) {
-			System.out.println("Enter a word here:  ");
+			System.out.println("Enter words here:  ");
 
-			word = input.next();
-			System.out.println("The word goes here " +  word );
+			word = input.nextLine();
+			System.out.println("The words go here " +  word );
 
 			System.out.println("Enter a intNum here: ");
 			
